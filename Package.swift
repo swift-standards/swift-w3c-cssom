@@ -10,7 +10,7 @@ let package = Package(
         .iOS(.v26),
         .tvOS(.v26),
         .watchOS(.v26),
-        .visionOS(.v26),
+        .visionOS(.v26)
     ],
     products: [
         .library(
@@ -22,10 +22,6 @@ let package = Package(
         .target(
             name: "W3C CSSOM",
             dependencies: []
-        ),
-        .testTarget(
-            name: "W3C CSSOM Tests",
-            dependencies: ["W3C CSSOM"]
         )
     ],
     swiftLanguageModes: [.v6]
